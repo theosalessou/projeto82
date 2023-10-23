@@ -70,7 +70,7 @@ export default class RideScreen extends Component {
             });
         } else if (transactionType === "rented") {
             // Verifique a disponibilidade do usuário para iniciar o passeio
-            var isEligible = false;
+            var isEligible = true;
 
             if (isEligible) {
                 var { bikeType, userName } = this.state;
